@@ -28,13 +28,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DESCRIPTION     tmk split keyboard firmware
 
 /* key matrix size */
-#define ROWS_PER_HAND 4
-#define MATRIX_COLS 6
+#define ROWS_PER_HAND 5
+#define MATRIX_COLS 7
 
 #define MATRIX_ROWS ROWS_PER_HAND*2
 
-#define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
-#define MATRIX_ROW_PINS { D7, E6, B4, B5 }
+#define MATRIX_COL_PINS { PB6, PB2, PB3, PB1, PF7, PF6, PF5}
+#define MATRIX_ROW_PINS { PC6, PD7, PE6, PB4, PB5}
 
 
 /* use i2c instead of serial */
